@@ -1,37 +1,37 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class Sc_AniTest : MonoBehaviour {
+//public class Sc_AniTest : MonoBehaviour {
 
-    Animator anim;
+//    Animator anim;
 
 	
-	void Start () {
+//	void Start () {
 
-        anim = GetComponent<Animator>();
+//        anim = GetComponent<Animator>();
 		
-	}
+//	}
 	
-    public void Idle_Ani()
-    {
-        anim.SetTrigger("Idle");
-    }
+//    public void Idle_Ani()
+//    {
+//        anim.SetTrigger("Idle");
+//    }
 
-    public void Move_Ani()
-    {
-        anim.SetTrigger("Move");
-    }
+//    public void Move_Ani()
+//    {
+//        anim.SetTrigger("Move");
+//    }
 
-    public void Damage_Ani()
-    {
-        anim.SetTrigger("Damage");
-    }
+//    public void Damage_Ani()
+//    {
+//        anim.SetTrigger("Damage");
+//    }
 
-    public void Death_Ani()
-    {
-        anim.SetTrigger("Death");
-    }
+//    public void Death_Ani()
+//    {
+//        anim.SetTrigger("Death");
+//    }
 
 
-}
+//}
